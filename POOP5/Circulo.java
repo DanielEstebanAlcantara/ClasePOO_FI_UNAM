@@ -12,7 +12,7 @@ package POOP5;
 public class Circulo {
     //se le debe de poner reglas de visibilidad
     static float PI = 3.14159f; //static por que es una constante
-    float radio;
+    private float radio;
 
     
     public Circulo(){
@@ -34,8 +34,6 @@ public class Circulo {
         else
             this.radio = radio;
     }
-    
-    
     
     public float perimetro(){
         return 2 * PI * radio;

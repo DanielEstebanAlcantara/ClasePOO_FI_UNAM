@@ -7,7 +7,7 @@ package POOP5;
 
 /**
  *
- * @author Propietario
+ * @author DanielEsteban
  */
 public class Persona {
     private String nombre;
@@ -15,10 +15,10 @@ public class Persona {
     private Fecha fNacimiento;
     
     public Persona(){
-        
+    
     }
-
-    public Persona(String nombre, String apellido, Fecha fNacimiento) {
+    
+    public Persona(String nombre, String apellido, Fecha fNacimiento, int lugar) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.fNacimiento = fNacimiento;
@@ -48,12 +48,10 @@ public class Persona {
         this.fNacimiento = fNacimiento;
     }
 
+
     @Override
     public String toString() {
         return "Persona{" + "nombre=" + nombre + ", apellido=" + apellido + ", fNacimiento=" + fNacimiento + '}';
     }
-    
-    
-    
-    
-}
+
+    }

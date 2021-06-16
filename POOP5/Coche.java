@@ -11,12 +11,47 @@ package POOP5;
  */
 public class Coche {
     
-    Persona persona1 = new Persona();
-    Persona persona2 = new Persona();
-    Persona persona3 = new Persona();
-    Persona persona4 = new Persona();
-    Persona persona5 = new Persona();
+    private String [] lugares = {"NULL", "Chofer", "Copiloto", "Pasajero1", "Pasajero2"};
+    private int lugar;
+    private Persona per;
     
-    //persona1.
+    public Coche() {
+    }
+
+    
+    public Coche(int lugar, Persona per) {
+        this.lugar = lugar;
+        this.per = per;
+    }
+    
+    public int getLugar() {
+        return lugar;
+    }
+
+    public void setLugar(int lugar) {
+        this.lugar = lugar;
+    }
+
+    public Persona getPer() {
+        return per;
+    }
+
+    public void setPer(Persona per) {
+        this.per = per;
+    }
+    
+    public String miLugar(){
+        return lugares[this.lugar];
+    }
+
+    @Override
+    public String toString() {
+        return "Coche{" + "lugares=" + lugares + ", lugar=" + lugar + ", per=" + per + '}';
+    }
+    
+    
+    
+    
+    
     
 }
