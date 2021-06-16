@@ -22,7 +22,7 @@ public class ejemplos {
         int variable5;
         int variable5_5 = 250;
         float variable6;
-        float variable6_6 = 15.05;
+        float variable6_6 = 15.05f;
         
         
         
