@@ -7,7 +7,7 @@ package POOP7;
 
 /**
  *
- * @author Propietario
+ * @author DanielEsteban
  */
 public class AnimalAereo extends Animal{
     private int numeroAlas;
@@ -19,7 +19,8 @@ public class AnimalAereo extends Animal{
         this.numeroAlas = numeroAlas;
     }
 
-    public AnimalAereo(int numeroAlas, String nombre, String lugarOrigen, String color) {
+    public AnimalAereo(int numeroAlas,
+            String nombre, String lugarOrigen, String color) {
         super(nombre, lugarOrigen, color);
         this.numeroAlas = numeroAlas;
     }

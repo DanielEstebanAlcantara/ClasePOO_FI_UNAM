@@ -60,6 +60,16 @@ public class POOP7 {
         
         //////// Animal Terrestre
         System.out.println("\n########## Animal Terrestre ##########\n");
+        Perro pr =new Perro();
+        pr.setNombre("Luna ");
+        pr.setLugarOrigen("Mexico");
+        pr.setColor("Gris");
+        pr.setColorCollar("Negro");
+        pr.setNumeroPatas(4);
+        pr.sonido("Gua gua !!!");
+        pr.hacerTrucos();
+        System.out.println(pr);
+        
         
         //////// Animal Aereo
         System.out.println("\n########## Animal Aereo ##########\n");
